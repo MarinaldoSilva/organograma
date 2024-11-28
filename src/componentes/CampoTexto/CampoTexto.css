@@ -1,0 +1,25 @@
+body{
+    box-sizing: border-box;
+}
+
+.campoTexto{
+    display: flex;
+    flex-direction: column;
+    margin: 24px auto;
+    width: 70.06em;
+}
+
+.nomeLabel{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 1em;
+    color: aqua;
+}   
+
+.campoTexto input[type='text']{
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 10px 10px 30px rgba(0,0,0, 0.6);
+    box-sizing: border-box;
+}
